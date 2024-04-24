@@ -1,8 +1,15 @@
-## Portfolio-Analysis
+# Portfolio-Analysis
 
-This project aims to identify promising stocks and funds for building an investment portfolio.
+This project aims to identify stocks and funds for building an investment portfolio using technical analysis such as Sharpe Ratio, Cumulative properties and other fundamentals.
+The goal is to aim to build a portfolio that will compete with the returns of the S&P 500.
 
-### Features:
+### Chapter Features:
+Here are a list of sections within the project
+  *  Gather Data from various sources (Yahoo Finance, Excel)
+  *  Exploratory Data Analysis using pandas library
+  *  Technical Analysis techniques and visuals applied
+  *  Choosing the preferred stocks and index funds to build a custom Portfolio
+  *  Compare the custom portfolio with the S&P 500.
 
 Utilizes various technical analysis techniques to evaluate potential investments.
 Optimizes portfolio construction to target performance that matches or outperforms the S&P 500.
