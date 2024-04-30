@@ -15,7 +15,7 @@ The goal is to aim to build a portfolio that will compete with the returns of th
  1. Performing pandas function "read_csv" to read the data sets together.
  2. Using more pandas functions to explore the data such as pd.head, pd.info, pd.isnull, etc.
  3. Using box plots and line charts to get a picture of how each stock is doing within the duration of the dataeset captured.
- ![Correlation](https://github.com/itzryanstowers/Portfolio-Analysis/assets/113382980/bf8912b1-bc94-4502-b896-b62d9093247a)
+ ![Closing_prices](https://github.com/itzryanstowers/Portfolio-Analysis/assets/113382980/166f3502-1d6b-4a00-b7eb-6e00c3e8f2c8)
  4. After exploring the data and making a few changes, it is now time to choose a few stocks and perform some technical analysis to compare with the S&P 500.
 ### Technical Analysis
  This is part of the project that will cover a wealth amount of analysis to decide which stocks will belong in the custom portfolio to compete with the S&P 500.
@@ -28,7 +28,9 @@ The goal is to aim to build a portfolio that will compete with the returns of th
  - Beta: Measures how much a specific investment moves relative to a benchmark (like the S&P 500). A beta of 1 means the investment moves exactly like the benchmark. A beta greater than 1 means it tends to be more volatile than the benchmark. A beta less than 1 means it's less volatile.
  - Rolling Statistics: Any statistical calculation (like standard deviation, mean) performed on a window or period of data points that's moved forward over time. This helps analyze how the statistics changes throughout the data.
  - Sharpe Ratio:  Measures the risk-adjusted return of an investment. It considers both the average return and the volatility (standard deviation) of the returns. A higher Sharpe Ratio indicates better risk-adjusted performance.
-We will be using visuals to view the pictures of most of the technical analysis to get a better picture of which stock is performing better than others that can be included in the portfolio. 
+![Sharpe Ratio](https://github.com/itzryanstowers/Portfolio-Analysis/assets/113382980/687901da-8e57-4f01-9912-716fb7b8333d)
+We will be using visuals to view the pictures of most of the technical analysis to get a better picture of which stock is performing better than others that can be included in the portfolio.
+
 ### Custom Portfolio
 Now that we have performed some technical analysis on the various stock options, we can now put together a portfolio that we believe will match or even outperform the S&P 500.
 Remeber the goal is to build a customized portfolio that aims to match or outperform the S&P 500's performance. By incorporating these technical analysis signals, the project seeks to exploit potential price movements and select assets with strong growth prospects. The specific technical indicators used and the selection criteria are detailed within the code itself.
