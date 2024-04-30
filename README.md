@@ -14,7 +14,8 @@ The goal is to aim to build a portfolio that will compete with the returns of th
  Before getting started, we need to acquire the data and explore it in order to move forward to perform some technical analysis. The following steps in gathering and exploring are as follows:
  1. Performing pandas function "read_csv" to read the data sets together.
  2. Using more pandas functions to explore the data such as pd.head, pd.info, pd.isnull, etc.
- 3. After exploring the data and making a few changes, it is now time to choose a few stocks and perform some technical analysis to compare with the S&P 500.
+ 3. Using box plots and line charts to get a picture of how each stock is doing within the duration of the dataeset captured.
+ 4. After exploring the data and making a few changes, it is now time to choose a few stocks and perform some technical analysis to compare with the S&P 500.
 ### Technical Analysis
  This is part of the project that will cover a wealth amount of analysis to decide which stocks will belong in the custom portfolio to compete with the S&P 500.
  Some of the techniques we use are as follows:
@@ -26,41 +27,13 @@ The goal is to aim to build a portfolio that will compete with the returns of th
  - Beta: Measures how much a specific investment moves relative to a benchmark (like the S&P 500). A beta of 1 means the investment moves exactly like the benchmark. A beta greater than 1 means it tends to be more volatile than the benchmark. A beta less than 1 means it's less volatile.
  - Rolling Statistics: Any statistical calculation (like standard deviation, mean) performed on a window or period of data points that's moved forward over time. This helps analyze how the statistics changes throughout the data.
  - Sharpe Ratio:  Measures the risk-adjusted return of an investment. It considers both the average return and the volatility (standard deviation) of the returns. A higher Sharpe Ratio indicates better risk-adjusted performance.
+We will be using visuals to view the pictures of most of the technical analysis to get a better picture of which stock is performing better than others that can be included in the portfolio. 
+### Custom Portfolio
+Now that we have performed some technical analysis on the various stock options, we can now put together a portfolio that we believe will match or even outperform the S&P 500.
+Remeber the goal is to build a customized portfolio that aims to match or outperform the S&P 500's performance. By incorporating these technical analysis signals, the project seeks to exploit potential price movements and select assets with strong growth prospects. The specific technical indicators used and the selection criteria are detailed within the code itself.
+### Construct and Evaluate 
+Now that we've constructed the customr portfolio, its now time to evaluate the portfolio with the S & P 500. Using the indicators that was aimed to capture potential price movements and growth prospects of the custom portfolio, the portfolio's performance is continuously monitored and compared against the S&P 500 to assess its effectiveness in achieving the goal of matching or exceeding the benchmark's return.
+### Potential Developments:
+Now that we have selected our custom portfolio, we can move over to another step that involves developing a user-friendly application (planned to use Streamlit) for interacting with the project's functionalities.
+This application will allow customers to see how each custom portfolio performs against the S&P 500 based on a couple questions they would answer to determine their risk tolerance (growth-oriented, income-focused, risk-averse) and receive tailored portfolio suggestions based on their preferences. This app will be determined during the development phase. It's likely to include visualizations, performance metrics, and actionable recommendations.
 
-Utilizes various technical analysis techniques to evaluate potential investments.
-Optimizes portfolio construction to target performance that matches or outperforms the S&P 500.
-Target Audience:
-
-This project is intended for individuals seeking investment guidance and portfolio management assistance from wealth planners or financial institutions like BlackRock and Fidelity.
-
-Technical Stack:
-
-Python
-Libraries: pandas, numpy, datetime, pathlib, matplotlib.pyplot, seaborn
-Running the Project (Current Stage):
-
-Currently, the project operates in a fully automated fashion within a Python environment.  There's no manual interaction required at this stage.
-
-Future Development:
-
-The next step involves developing a user-friendly application (planned to use Streamlit) for interacting with the project's functionalities.
-
-Output (To Be Defined):
-
-The final application's output will be determined during the development phase. It's likely to include visualizations, performance metrics, and actionable recommendations.
-
-Development Notes:
-
-Feel free to include a brief description of your development process or the challenges you encountered.
-
-Additional Resources:
-
-Consider adding any relevant links to libraries or technical analysis concepts used in the project.
-
-License:
-
-(Optional) If you have a specific license associated with your project, mention it here.
-
-Contribution:
-
-(Optional)  If you plan to allow others to contribute, outline your contribution guidelines.
