@@ -15,6 +15,7 @@ The goal is to aim to build a portfolio that will compete with the returns of th
  1. Performing pandas function "read_csv" to read the data sets together.
  2. Using more pandas functions to explore the data such as pd.head, pd.info, pd.isnull, etc.
  3. Using box plots and line charts to get a picture of how each stock is doing within the duration of the dataeset captured.
+ ![Correlation](https://github.com/itzryanstowers/Portfolio-Analysis/assets/113382980/bf8912b1-bc94-4502-b896-b62d9093247a)
  4. After exploring the data and making a few changes, it is now time to choose a few stocks and perform some technical analysis to compare with the S&P 500.
 ### Technical Analysis
  This is part of the project that will cover a wealth amount of analysis to decide which stocks will belong in the custom portfolio to compete with the S&P 500.
